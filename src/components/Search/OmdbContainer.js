@@ -6,7 +6,7 @@ import Col from './Col';
 import Card from './Card';
 import SearchForm from './SearchForm';
 import MovieDetail from './MovieDetail';
-import API from '../utils/API';
+import API from '../../utils/API.js';
 
 const OmdbContainer = () => {
   // Set state for the search result and the search query
