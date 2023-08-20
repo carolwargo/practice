@@ -26,8 +26,8 @@ export default function App() {
             <Form />
             <Thermostat />
             <OmdbContainer/>
-            <Header />
             <Navbar />
+            <Header />
             <Section />
         </React.StrictMode>
     );
