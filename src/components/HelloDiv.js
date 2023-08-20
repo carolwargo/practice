@@ -1,11 +1,17 @@
 import React from "react";
 
-
-export default function Hello() {
-    const message = "Hello World! I am a React component.";
-    return (
-        <div className="container">
-            <h1>{message}</h1>
-        </div>
-    );
+function HelloDiv() {
+  return (
+    <div>
+      <h1>Hey guys! I'm a header!</h1>
+      <h2>Things I like!</h2>
+      <ul>
+        <li>Peas</li>
+        <li>Carrots</li>
+        <li>Love</li>
+      </ul>
+    </div>
+  );
 }
+
+export default HelloDiv;
