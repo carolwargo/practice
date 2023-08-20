@@ -1,6 +1,6 @@
 import './App.css';
 import HomePage from './views/HomePage/index.js';
-import Display from './components/Display/index.js';
+import Display from './components/Display.js';
 
 function App() {
   return (
