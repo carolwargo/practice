@@ -11,6 +11,7 @@ import OmdbContainer from './components/Search/OmdbContainer';
 import Header from './components/Header/Header';
 import Navbar from './components/Navbar/Navbar';
 import Section from './components/Section/Section';
+import PortfolioContainer from './components/Portfolio/PortfolioContainer';
 
 // This function is a functional component that helps us split the UI into distinct parts.
 // In this case, we are returning another component, <HelloReact/> from it.
@@ -29,6 +30,7 @@ export default function App() {
             <Navbar />
             <Header />
             <Section />
+            <PortfolioContainer />
         </React.StrictMode>
     );
 }
