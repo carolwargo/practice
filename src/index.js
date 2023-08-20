@@ -1,9 +1,10 @@
 // The import React from 'react' module is an entry point to the React library, while react-dom provides access to DOM-specific methods.
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import '../src/index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 // OLD (version 17) The ReactDOM.render method is used to render a react element into the actual DOM
