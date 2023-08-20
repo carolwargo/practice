@@ -21,8 +21,6 @@ export default function App() {
         <React.StrictMode>
             <br></br>
             <br></br>
-            <br></br>
-            <br></br>
             <HelloDiv/>
             <br></br>
             <br></br>

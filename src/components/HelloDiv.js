@@ -3,7 +3,7 @@ import React from "react";
 function HelloDiv() {
   return (
     <div>
-      <h1>Hey guys! I'm a header!</h1>
+      <h1>Hey guys, I'm a header or an element rendered!</h1>
       <h2>Things I like!</h2>
       <ul>
         <li>Peas</li>
