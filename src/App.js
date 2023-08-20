@@ -1,5 +1,5 @@
 import React from 'react';
-import Hello from './components/Hello';
+import Hello from './components/HelloDiv';
 import JSXVariables from './components/JSXVariables';
 import Display from './components/Display/Display';
 import List from './components/List';
@@ -19,19 +19,62 @@ import BucketList from './components/BucketList/BucketList';
 export default function App() {
     return (
         <React.StrictMode>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
             <Hello />
+            <br></br>
+            <br></br>
+            <br></br>
             <JSXVariables />
+            <br></br>
+            <br></br>
+            <br></br>
             <Display />
+            <br></br>
+            <br></br>
+            <br></br>
             <List />
+            <br></br>
+            <br></br>
+            <br></br>
             <Greeting />
+            <br></br>
+            <br></br>
+            <br></br>
             <Counter />
+            <br></br>
+            <br></br>
+            <br></br>
             <Form />
+            <br></br>
+            <br></br>
+            <br></br>
             <Thermostat />
+            <br></br>
+            <br></br>
+            <br></br>
             <OmdbContainer/>
+            <br></br>
+            <br></br>
+            <br></br>
             <Navbar />
+            <br></br>
+            <br></br>
+            <br></br>
             <Header />
+            <br></br>
+            <br></br>
+            <br></br>
             <Section />
+            <br></br>
+            <br></br>
+            <br></br>
             <PortfolioContainer />
+            <br></br>
+            <br></br>
+            <br></br>
             <BucketList />
         </React.StrictMode>
     );
