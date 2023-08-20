@@ -2,7 +2,7 @@ import React from 'react';
 
 // We can see that by logging `props` that what are being passed to this child component is an object containing `count`, `handleIncrement()`, and `handleDecrement()`.
 
-function CardBody(props) {
+export default function CardBody(props) {
   return (
     <div className="card-body">
       <p className="card-text">Click Count: {props.count}</p>
@@ -24,4 +24,3 @@ function CardBody(props) {
   );
 }
 
-export default CardBody;
