@@ -5,6 +5,7 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+
 // OLD (version 17) The ReactDOM.render method is used to render a react element into the actual DOM
   //OLD import ReactDom from 'react-dom';
 // NEW (version 18) The ReactDOM.createRoot method is used to render a react element into the actual DOM 

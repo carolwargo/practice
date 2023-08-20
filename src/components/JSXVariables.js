@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function JSXexpression() {
+export default function JSXVariables() {
     const name = "John";
     const thoughts = "is awesome!";
 
