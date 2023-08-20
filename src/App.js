@@ -4,6 +4,7 @@ import JSXVariables from './components/JSXVariables';
 import Display from './components/Display';
 import List from './components/List';
 import Greeting from './components/Greeting';
+import Counter from './components/Counter';
 
 // This function is a functional component that helps us split the UI into distinct parts.
 // In this case, we are returning another component, <HelloReact/> from it.
@@ -15,6 +16,7 @@ export default function App() {
             <Display />
             <List />
             <Greeting />
+            <Counter />
         </React.StrictMode>
     );
 }
