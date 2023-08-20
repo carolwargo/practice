@@ -1,7 +1,7 @@
 // The import React from 'react' module is an entry point to the React library, while react-dom provides access to DOM-specific methods.
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
+import '../src/index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
